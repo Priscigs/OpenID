@@ -9,8 +9,6 @@ def getToken():
     
     conn = http.client.HTTPSConnection("dev-q024wp4wou22f5r0.us.auth0.com")
 
-    c_id = "NFQxUd2gryp3rwkfKKwxWQ5wGshMxsOg"
-    c_s = "yYLdqU2Z1KPGyuyIG4wzI6bpVSCZeP38j1BuDWE1Mmg9KrX8HK8ShPXLJlNYDyQe69"
     c_id = input("(client id) ? ")
     c_s = input("(client secret) ? ")
 
