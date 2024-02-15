@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <Link to="/home">Home</Link>
+      <Link to="/">Home</Link>
       {isAuthenticated && <Link to="/dashboard">Dashboard</Link>}
       {!isAuthenticated ? (
         <button onClick={() => loginWithRedirect()}>Log In</button>

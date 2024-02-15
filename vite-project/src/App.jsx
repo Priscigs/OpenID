@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/home" exact component={Home} />
+        <Route exact path="/" Component={Home} />
         <Route path="/dashboard" component={Dashboard} />
       </Routes>
     </Router>
