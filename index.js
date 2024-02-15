@@ -6,6 +6,9 @@ const jwksRsa = require('jwks-rsa');
 
 // Load environment variables
 dotenv.config();
+console.log(dotenv.config())
+console.log(process.env.AUTH0_DOMAIN)
+console.log(process.env.AUTH0_AUDIENCE)
 
 const app = express();
 
