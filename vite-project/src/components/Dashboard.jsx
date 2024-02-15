@@ -10,9 +10,13 @@ const Dashboard = () => {
     <div>
       <h2>Dashboard</h2>
       <p>Welcome, {user.name}!</p>
+      <iframe title="Video" 
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+        width="560" height="315"  allowFullScreen>
+      </iframe>
     </div>
   ) : (
-    <div>Please log in to see the dashboard.</div>
+    <div><p>Please log in to see the dashboard.</p></div>
   );
 };
 
