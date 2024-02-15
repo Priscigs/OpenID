@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
-const jwt = require('express-jwt');
+var { expressjwt: jwt } = require("express-jwt");
 const jwksRsa = require('jwks-rsa');
 
 // Load environment variables
