@@ -16,7 +16,7 @@ const Dashboard = () => {
       </iframe>
     </div>
   ) : (
-    <div><p>Please log in to see the dashboard.</p></div>
+    <div><p>Please <span style={{color:"red", textDecoration:"underline"}}>log in</span> to see the dashboard.</p></div>
   );
 };
 
