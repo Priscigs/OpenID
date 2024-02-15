@@ -9,6 +9,7 @@ dotenv.config();
 console.log(dotenv.config())
 console.log(process.env.AUTH0_DOMAIN)
 console.log(process.env.AUTH0_AUDIENCE)
+console.log(jwt)
 
 const app = express();
 
