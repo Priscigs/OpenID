@@ -32,6 +32,7 @@ def getToken():
         print(json_data["access_token"])
     except:
         print("Invalid client id or client secret")
+        json_data = {}
 
 while True:
     print("> ", end="")
@@ -50,5 +51,7 @@ while True:
             getToken()
         else:
             print(json_data["access_token"])
+    elif command == "?":
+        print("public: get public data\nprivate: get private data\nget: get access token")
     else:
         exit()
