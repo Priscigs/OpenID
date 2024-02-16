@@ -15,7 +15,7 @@ def getToken():
     payload = {
         "client_id": c_id,
         "client_secret": c_s,
-        "audience": "https://dev-q024wp4wou22f5r0.us.auth0.com/api/v2/",
+        "audience": "https://endpoint/api/v2/",
         "grant_type": "client_credentials"
     }
 
